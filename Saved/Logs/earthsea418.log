@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 03/01/18 03:12:45
+=======
+﻿Log file open, 03/01/18 03:19:12
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +13,21 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: earthsea418
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1408504635) SRandInit(-1408504635).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.308652
+=======
+LogInit: Display: RandInit(-1222956381) SRandInit(-1222956381).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166262
+>>>>>>> master
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -192,10 +205,11 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: F:/Unreal/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: F:/programs/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.03.01-00.12.49:919][  0]LogInit: Selected Device Profile: [Windows]
 [2018.03.01-00.12.49:919][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.03.01-00.12.49:995][  0]LogInit: Computer: DESKTOP-85SM3M5
@@ -683,3 +697,195 @@ LogInit: Object subsystem initialized
 [2018.03.01-00.17.47:903][ 78]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.03.01-00.17.47:934][ 78]LogExit: Exiting.
 [2018.03.01-00.17.47:970][ 78]Log file closed, 03/01/18 03:17:47
+=======
+[2018.03.01-00.19.13:472][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.01-00.19.13:472][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.01-00.19.13:485][  0]LogInit: Computer: DESKTOP-4BEMVG4
+[2018.03.01-00.19.13:486][  0]LogInit: User: yura
+[2018.03.01-00.19.13:486][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.01-00.19.13:486][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2018.03.01-00.19.13:486][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.01-00.19.13:486][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.01-00.19.13:486][  0]LogMemory: Process Physical Memory: 272.06 MB used, 272.06 MB peak
+[2018.03.01-00.19.13:486][  0]LogMemory: Process Virtual Memory: 263.50 MB used, 263.50 MB peak
+[2018.03.01-00.19.13:486][  0]LogMemory: Physical Memory: 6461.24 MB used,  9882.71 MB free, 16343.96 MB total
+[2018.03.01-00.19.13:486][  0]LogMemory: Virtual Memory: 670.59 MB used,  9882.71 MB free, 134217728.00 MB total
+[2018.03.01-00.19.13:593][  0]LogInit: Using OS detected language (ru-RU).
+[2018.03.01-00.19.13:593][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.03.01-00.19.13:596][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.03.01-00.19.13:596][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.03.01-00.19.14:011][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.01-00.19.14:237][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.01-00.19.14:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.03.01-00.19.14:284][  0]LogD3D11RHI:       6061/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.01-00.19.14:287][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.01-00.19.14:287][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.01-00.19.14:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.01-00.19.14:293][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.01-00.19.14:293][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.01-00.19.14:293][  0]LogWindows: EnumDisplayDevices:
+[2018.03.01-00.19.14:293][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.03.01-00.19.14:293][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.03.01-00.19.14:293][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.03.01-00.19.14:293][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.03.01-00.19.14:293][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.01-00.19.14:293][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.03.01-00.19.14:294][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.01-00.19.14:294][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.01-00.19.14:294][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.03.01-00.19.14:321][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.01-00.19.14:332][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.01-00.19.14:375][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../project_3d/earthsea/earthsea418/Intermediate/Shaders/WorkingDirectory/11584/).
+[2018.03.01-00.19.14:376][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yura/AppData/Local/Temp/UnrealShaderWorkingDir/38A2245940BF844FAE22DBBBF111D087/'.
+[2018.03.01-00.19.14:376][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.01-00.19.15:268][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.01-00.19.15:305][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.01-00.19.15:342][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.01-00.19.15:380][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.01-00.19.15:420][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.01-00.19.15:459][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.01-00.19.15:501][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.01-00.19.15:538][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.01-00.19.15:572][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.01-00.19.15:610][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.01-00.19.15:647][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.01-00.19.15:684][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.01-00.19.15:722][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.01-00.19.15:763][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.01-00.19.15:839][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.01-00.19.15:839][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.01-00.19.15:876][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.01-00.19.15:904][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.01-00.19.15:975][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.01-00.19.15:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.01-00.19.16:032][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.01-00.19.16:069][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.01-00.19.16:106][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.01-00.19.16:144][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.01-00.19.16:144][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.01-00.19.16:461][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/yura/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yura/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../project_3d/earthsea/earthsea418/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../project_3d/earthsea/earthsea418/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.01-00.19.16:564][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.01-00.19.16:579][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.01-00.19.16:591][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yura/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.01-00.19.16:602][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.01-00.19.16:602][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.01-00.19.16:603][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.01-00.19.16:603][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.01-00.19.16:948][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.01-00.19.17:215][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.01-00.19.17:244][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.01-00.19.17:244][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.01-00.19.17:244][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.01-00.19.17:244][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.01-00.19.17:244][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.01-00.19.17:270][  0]LogNetVersion: earthsea418 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4181013138)
+[2018.03.01-00.19.17:426][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.03.01-00.19.17:855][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.030467 seconds
+[2018.03.01-00.19.17:862][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.01-00.19.17:862][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.01-00.19.17:862][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.01-00.19.17:894][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.01-00.19.19:998][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.01-00.19.20:031][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.01-00.19.20:535][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.01-00.19.20:864][  0]SourceControl: Source control is disabled
+[2018.03.01-00.19.22:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.01-00.19.22:209][  0]LogOcInput: OculusInput pre-init called
+[2018.03.01-00.19.22:419][  0]LogEngine: Initializing Engine...
+[2018.03.01-00.19.22:421][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.01-00.19.22:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.01-00.19.22:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.01-00.19.22:773][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.01-00.19.22:780][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.01-00.19.22:817][  0]LogInit: FAudioDevice initialized.
+[2018.03.01-00.19.22:915][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/yura/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.01-00.19.22:939][  0]LogInit: Texture streaming: Enabled
+[2018.03.01-00.19.23:007][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.01-00.19.23:105][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.01-00.19.23:105][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.01-00.19.23:145][  0]LogInit: Transaction tracking system initialized
+[2018.03.01-00.19.23:365][  0]BlueprintLog: New page: Editor Load
+[2018.03.01-00.19.24:011][  0]LocalizationService: Localization service is disabled
+[2018.03.01-00.19.24:586][  0]LogConsoleResponse: Display: 
+[2018.03.01-00.19.24:716][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.01-00.19.24:716][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.01-00.19.24:716][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.01-00.19.25:545][  0]LogFileCache: Scanning file cache for directory 'F:/project_3d/earthsea/earthsea418/Content/' took 0.01s
+[2018.03.01-00.19.25:545][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.01-00.19.25:545][  0]LightingResults: New page: Lighting Build
+[2018.03.01-00.19.25:571][  0]MapCheck: New page: Map Check
+[2018.03.01-00.19.25:571][  0]LightingResults: New page: Lighting Build
+[2018.03.01-00.19.25:731][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.01-00.19.25:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.01-00.19.25:747][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.01-00.19.25:783][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.884ms to complete.
+[2018.03.01-00.19.25:783][  0]LogFileHelpers: Loading map 'Template_Default' took 0.238
+[2018.03.01-00.19.25:927][  0]LogCollectionManager: Loaded 0 collections in 0.000797 seconds
+[2018.03.01-00.19.25:994][  0]LogFileCache: Scanning file cache for directory 'F:/project_3d/earthsea/earthsea418/Saved/Collections/' took 0.01s
+[2018.03.01-00.19.25:994][  0]LogFileCache: Scanning file cache for directory 'F:/project_3d/earthsea/earthsea418/Content/Developers/yura/Collections/' took 0.01s
+[2018.03.01-00.19.25:994][  0]LogFileCache: Scanning file cache for directory 'F:/project_3d/earthsea/earthsea418/Content/Collections/' took 0.01s
+[2018.03.01-00.19.25:994][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.01-00.19.26:002][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2363 classes and 519 folders.
+[2018.03.01-00.19.26:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.01-00.19.26:072][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.01-00.19.26:103][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.01-00.19.26:120][  0]LogSlate: Took 0.000457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.01-00.19.26:123][  0]LogSlate: Took 0.000484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.01-00.19.26:128][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.01-00.19.26:234][  0]LogRenderer: Reallocating scene render targets to support 1144x624 Format 10 NumSamples 1 (Frame:1).
+[2018.03.01-00.19.26:400][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.01-00.19.26:400][  0]LogLoad: (Engine Initialization) Total time: 14.61 seconds
+[2018.03.01-00.19.26:400][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.01-00.19.26:400][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.01-00.19.26:430][  0]SourceControl: On branch master
+[2018.03.01-00.19.26:430][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.01-00.19.26:430][  0]SourceControl: Changes not staged for commit:
+[2018.03.01-00.19.26:430][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.03.01-00.19.26:430][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.01-00.19.26:430][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.03.01-00.19.26:430][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2018.03.01-00.19.26:430][  0]SourceControl: 	deleted:    Saved/Logs/earthsea418-backup-2018.03.01-02.14.25.log
+[2018.03.01-00.19.26:431][  0]SourceControl: 	modified:   Saved/Logs/earthsea418.log
+[2018.03.01-00.19.26:431][  0]SourceControl: Untracked files:
+[2018.03.01-00.19.26:431][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.01-00.19.26:431][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-AB03995E43F168EF5EF9C294CA026DF4/
+[2018.03.01-00.19.26:431][  0]SourceControl: 	Saved/Logs/earthsea418-backup-2018.03.01-03.19.12.log
+[2018.03.01-00.19.26:431][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.01-00.19.26:431][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.01-00.19.26:532][  1]LogAssetRegistry: Asset discovery search completed in 9.1277 seconds
+[2018.03.01-00.19.26:534][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.03.01-00.19.26:534][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
+[2018.03.01-00.19.32:007][522]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.01-00.19.32:260][522]LogAIModule: Creating AISystem for world default
+[2018.03.01-00.19.32:308][522]Cmd: MAP LOAD FILE="../../../../../../project_3d/earthsea/earthsea418/Content/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.01-00.19.32:308][522]LightingResults: New page: Lighting Build
+[2018.03.01-00.19.32:309][522]LoadErrors: New page: Loading map: default.umap
+[2018.03.01-00.19.32:309][522]MapCheck: New page: Map Check
+[2018.03.01-00.19.32:309][522]LightingResults: New page: Lighting Build
+[2018.03.01-00.19.32:438][522]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.01-00.19.32:480][522]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.01-00.19.32:518][522]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.127ms to complete.
+[2018.03.01-00.19.32:519][522]LogFileHelpers: Loading map 'default' took 0.213
+[2018.03.01-00.21.36:233][254]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.01-00.24.15:909][971]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.03.01-00.24.16:737][971]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.01-00.24.17:072][972]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.01-00.24.35:520][994]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.24.40:712][263]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.25.15:075][107]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.25.26:741][714]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.25.30:676][903]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.25.31:459][924]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.03.01-00.29.23:522][610]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.01-00.29.32:585][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/default" FILE="../../../../../../project_3d/earthsea/earthsea418/Saved/Autosaves/Game/default_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.01-00.29.33:607][637]LogSavePackage: Save=1006.07ms
+[2018.03.01-00.29.33:607][637]LogSavePackage: Moving '../../../../../../project_3d/earthsea/earthsea418/Saved/default_Auto1516528BC4751FE3426868386C9871D2D.tmp' to '../../../../../../project_3d/earthsea/earthsea418/Saved/Autosaves/Game/default_Auto1.umap'
+[2018.03.01-00.29.33:608][637]LogSavePackage: Display: Finished SavePackage ../../../../../../project_3d/earthsea/earthsea418/Saved/Autosaves/Game/default_Auto1.umap
+[2018.03.01-00.29.33:609][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/default' took 1.053
+[2018.03.01-00.29.33:609][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.053
+>>>>>>> master
