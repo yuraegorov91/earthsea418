@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
 	"FileVersion": 3,
 	"EngineAssociation": "4.18",
 	"Category": "",
 	"Description": ""
+=======
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.18",
+	"Category": "",
+	"Description": ""
+>>>>>>> parent of 6cbe202... Revert "Initial commit"
 }
